@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@plugin "daisyui";
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/aspect-ratio";
+@plugin "tailwind-scrollbar";
+
+/* Clases personalizadas*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
